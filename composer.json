@@ -1,0 +1,34 @@
+{
+  "name": "involve-digital/laravel-mail-ecomail",
+  "description": "EcoMail transport layer",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "InvolveDigital\\LaravelMailEcomail\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jakub Paidar",
+      "email": "jakub.paidar@involve.cz"
+    },
+    {
+      "name": "Involve Digital s.r.o.",
+      "email": "devs@involve.cz",
+      "homepage": "https://www.involve.cz/"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">= 8.2",
+    "laravel/framework": "^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "InvolveDigital\\LaravelMailEcomail\\EcomailProvider"
+      ]
+    }
+  }
+}
