@@ -25,7 +25,7 @@ final class EcomailProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Mail::extend('ecomail', fn() => app(EcomailTransport::class));
+        Mail::extend('laravel-mail-ecomail', fn() => app(EcomailTransport::class));
 
         $this->publishes([
             __DIR__ . '/../../resources/config/laravel-mail-ecomail.php' => config_path('laravel-mail-ecomail.php'),
