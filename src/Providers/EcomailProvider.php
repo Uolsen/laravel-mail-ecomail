@@ -29,7 +29,7 @@ final class EcomailProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../../resources/config/laravel-mail-ecomail.php' => config_path('laravel-mail-ecomail.php'),
-        ]);
+        ], 'laravel-mail-ecomail-config');
     }
 
 }
