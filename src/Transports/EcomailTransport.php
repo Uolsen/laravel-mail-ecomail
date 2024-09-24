@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelMailEcomail\Transport;
+namespace InvolveDigital\LaravelMailEcomail\Transports;
 
 use Illuminate\Support\Arr;
 use InvolveDigital\LaravelMailEcomail\Api\EcomailApiService;

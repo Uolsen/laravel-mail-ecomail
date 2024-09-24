@@ -6,7 +6,7 @@ namespace InvolveDigital\LaravelMailEcomail\Providers;
 
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\ServiceProvider;
-use InvolveDigital\LaravelMailEcomail\Transport\EcomailTransport;
+use InvolveDigital\LaravelMailEcomail\Transports\EcomailTransport;
 
 final class EcomailProvider extends ServiceProvider
 {
