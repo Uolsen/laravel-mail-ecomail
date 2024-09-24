@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace InvolveDigital\LaravelMailEcomail;
+namespace InvolveDigital\LaravelMailEcomail\Providers;
 
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\ServiceProvider;

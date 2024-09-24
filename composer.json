@@ -27,7 +27,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "InvolveDigital\\LaravelMailEcomail\\EcomailProvider"
+        "InvolveDigital\\LaravelMailEcomail\\Providers\\EcomailProvider"
       ]
     }
   }
