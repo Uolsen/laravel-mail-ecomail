@@ -13,11 +13,6 @@ use Symfony\Component\Mime\MessageConverter;
 final class EcomailTransport extends AbstractTransport
 {
 
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     public function __toString(): string
     {
         return 'ecomail';
