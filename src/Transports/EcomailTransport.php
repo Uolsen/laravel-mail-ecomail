@@ -20,7 +20,7 @@ final class EcomailTransport extends AbstractTransport
 
     public function __toString(): string
     {
-        return 'laravel-mail-ecomail';
+        return 'ecomail';
     }
 
     protected function doSend(SentMessage $message): void

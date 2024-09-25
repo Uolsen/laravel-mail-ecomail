@@ -10,7 +10,7 @@
 ### Install
 
 ```bash
-composer require power-components/livewire-powergrid
+composer require involve-digital/laravel-mail-ecomail
 ```
 
 #### Add api key in env
@@ -22,15 +22,15 @@ ECOMAIL_API_KEY=yourApiKey
 #### Add driver into mail.php config
 
 ```
-'laravel-mail-ecomail' => [
-    'transport' => 'laravel-mail-ecomail',
+'ecomail' => [
+    'transport' => 'ecomail',
 ],
 ```
 
 #### Change mailer
 
 ```
-MAIL_MAILER=laravel-mail-ecomail
+MAIL_MAILER=ecomail
 ```
 
 #### Publish config
